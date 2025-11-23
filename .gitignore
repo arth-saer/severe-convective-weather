@@ -1,0 +1,9 @@
+**/.venv/
+**/.vscode/
+**/__pycache__/
+**/Data/
+**/venv/
+**/note/
+**/result/
+*.zip
+*.log
