@@ -151,8 +151,8 @@ def save_labels(final_labels: np.ndarray, save_path, save_type="png"):
 
 if __name__ == '__main__':
     
-    samples_root_path = '/mnt/md1/lxw/severe-convective-weather/SCCLabel/Data/samples'
-    labels_root_path = '/mnt/md1/lxw/severe-convective-weather/SCCLabel/Data/labels'
+    samples_root_path = '/mnt/md1/lxw/severe-convective-weather/SCCLabel/Data/examples/20230301'
+    labels_root_path = '/mnt/md1/lxw/severe-convective-weather/SCCLabel/Data/labels/20230301'
     vis_root_path = '/mnt/md1/lxw/severe-convective-weather/SCCLabel/Data/vis'
     
     if not os.path.exists(labels_root_path):
@@ -174,8 +174,8 @@ if __name__ == '__main__':
         # 可视化，用于调试
         # p = random.random()
         # if p < 0.1:
-        results_visualize(result_dict, root_path=vis_root_path, dir_name=sample_time)
+        #     results_visualize(result_dict, root_path=vis_root_path, dir_name=sample_time)
     
                 
-    # print(sample_np.shape)
-    # print(final_labels.shape)
+    print(sample_np.shape)
+    print(final_labels.shape)
