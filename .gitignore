@@ -1,7 +1,5 @@
-**/.vscode/
 **/__pycache__/
+**/.vscode/
 **/Data/
 **/note/
 **/result/
-*.zip
-*.log

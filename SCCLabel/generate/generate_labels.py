@@ -6,9 +6,8 @@ from scipy import ndimage
 from skimage import measure
 import cv2
 
-from hdfpreprocess_multi import read_hdf
+from FY4A.preprocess.hdfpreprocess_multi import read_hdf
 from visualize_results import results_visualize
-
 
 def generate_convective_labels(all_channel_data: np.ndarray, satellite_type='Himawari', thresholds=None):
     """
